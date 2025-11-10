@@ -1,56 +1,63 @@
-<<<<<<< HEAD
 # Amazon Sales Analysis
 
-## Project Overview
-This project analyzes Amazon sales data to derive meaningful insights about sales patterns, customer behavior, and product performance. The analysis includes various aspects such as geographic distribution, customer segmentation, and product category analysis.
+Automated analysis of Amazon sales data with Excel dashboard generation.
 
-## Key Features
-- Data cleaning and preprocessing
-- Time-series analysis of sales
-- Geographic distribution analysis
-- Customer behavior analysis (B2B vs B2C)
-- Product category performance
-- Statistical analysis and visualization
-- Interactive dashboards
+## Overview
 
-## Tools & Technologies
-- Python
-- Pandas
-- Plotly
-- Seaborn
-- Jupyter Notebook
+This project analyzes Amazon sales transactions and generates an interactive Excel dashboard with charts and insights. Each run creates a timestamped Excel file for version tracking.
 
-## Analysis Components
-1. Data Loading & Preprocessing
-2. Temporal Analysis
-3. Geographic Analysis
-4. Customer Segmentation
-5. Product Analysis
-6. Statistical Analysis
-7. Executive Dashboard
+## Prerequisites
 
-## Results
-The analysis provides insights into:
-- Sales trends and patterns
-- Top-performing product categories
-- Geographic distribution of sales
-- Customer behavior patterns
-- Key performance metrics
+1. Python 3.8 or higher
+2. Required packages: pandas, numpy, openpyxl
+3. Sales data file: `Amazon Sale Report.csv` in `assignment/` folder
+
+## Installation
+
+Install required packages:
+```bash
+pip install -r requirements.txt
+```
 
 ## How to Run
-1. Install required dependencies:
-   ```
-   pip install pandas numpy plotly seaborn matplotlib scipy
-   ```
-2. Open `Amazon_Sales_Analysis.ipynb` in Jupyter Notebook
-3. Run all cells sequentially
 
-## Author
-Madhu Kumari
-- Data Engineering Professional
-- BPharma Graduate
-- Focus on healthcare data analytics and pharmaceutical insights
-=======
-# Amazon-Sales-Analysis
-Data analysis project completed during Data Analyst internship at Innobyte
->>>>>>> ed53235a051ea70bfe7a0412e691a70c36ae7b35
+```bash
+python scripts/analyze_and_generate_dashboard.py
+```
+
+Output will be generated in `outputs/` folder with timestamp: `Amazon_Sales_Dashboard_YYYYMMDD_HHMMSS.xlsx`
+
+## Project Structure
+
+```
+Amazon-Sales-Analysis/
+├── assignment/              # Source data
+├── scripts/                 # Analysis script
+├── outputs/                 # Generated dashboards
+└── requirements.txt         # Dependencies
+```
+
+## Output Dashboard Contains
+
+1. Summary & Insights - Key findings and recommendations
+2. Visual Dashboard - Metric cards with KPIs
+3. Data Quality - Data cleaning report
+4. Category Analysis - Product performance
+5. Geography Analysis - State and city distribution
+6. Order Status - Order lifecycle tracking
+7. Size Analysis - Popular sizes
+8. Sales Trend - Daily revenue patterns
+9. Fulfillment Analysis - Delivery methods
+10. B2B vs B2C - Customer segments
+
+## Output Features
+
+- Interactive charts editable in Excel
+- Timestamped filenames for version control
+- Professional formatting with color-coded metrics
+- All analysis in single Excel file
+- Charts can be copied to PowerPoint
+
+
+Author : Madhu Kumari
+Email: madhukumari09957@gmail.com

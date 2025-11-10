@@ -1,4 +1,0 @@
-Total Sales: 78,590,170.25
-Unique Orders: 120,229
-Average Order Value: 653.67
-Total Units Sold: 116,646
