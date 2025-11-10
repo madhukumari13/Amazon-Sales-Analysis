@@ -1,0 +1,40 @@
+
+    <h1>Amazon Sales Analysis Executive Summary</h1>
+    <p>Generated on 2025-11-08 16:55:07</p>
+
+    <h2>Overview</h2>
+    <ul>
+        <li>Total Sales: ₹78,590,170.25</li>
+        <li>Total Orders: 120,229</li>
+        <li>Average Order Value: ₹648.56</li>
+    </ul>
+
+    <h2>Top Performance Highlights</h2>
+    <h3>Categories</h3>
+    <ul>
+    <li>T-shirt: ₹39,206,756.65</li><li>Shirt: ₹21,297,770.08</li><li>Blazzer: ₹11,215,104.12</li>
+    </ul>
+    <h3>States</h3>
+    <ul>
+    <li>MAHARASHTRA: ₹13,340,333.05</li><li>KARNATAKA: ₹10,480,694.22</li><li>TELANGANA: ₹6,915,018.08</li>
+    </ul>
+    <h2>Key Metrics</h2>
+    <ul>
+        <li>B2B Sales Percentage: {(df[df['B2B']]['Amount'].sum() / df['Amount'].sum() * 100):.1f}%</li>
+        <li>Amazon Fulfilled Orders: {(df[df['Fulfilment'] == 'Amazon']['Order ID'].nunique() / df['Order ID'].nunique() * 100):.1f}%</li>
+        <li>Average Items per Order: {df['Qty'].mean():.2f}</li>
+    </ul>
+
+    <h2>Analysis Files</h2>
+    <p>The following analysis files have been generated:</p>
+    <ul>
+    <li>b2b_sales.csv</li><li>b2b_sales.html</li><li>category_preferences.csv</li><li>category_preferences.html</li><li>category_sales.csv</li><li>category_sales.html</li><li>category_time.html</li><li>correlation_matrix.csv</li><li>customer_behavior.csv</li><li>customer_behavior.html</li><li>daily_sales.csv</li><li>distribution_analysis.html</li><li>dow_sales.csv</li><li>dow_sales.html</li><li>fulfillment_analysis.csv</li><li>fulfillment_analysis.html</li><li>fulfillment_status.csv</li><li>fulfillment_status.html</li><li>invalid_amount_rows.csv</li><li>monthly_sales.csv</li><li>monthly_sales.html</li><li>sales_dashboard.html</li><li>sales_trends.html</li><li>size_distribution.html</li><li>state_analysis.csv</li><li>state_analysis.html</li><li>state_sales.csv</li><li>state_sales.html</li>
+    </ul>
+    <h2>Recommendations</h2>
+    <ul>
+        <li>Focus on top-performing categories for growth</li>
+        <li>Optimize inventory for high-demand states</li>
+        <li>Consider expanding B2B offerings</li>
+        <li>Monitor and improve fulfillment efficiency</li>
+    </ul>
+    

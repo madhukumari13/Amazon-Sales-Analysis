@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# Local environment
+venv/
+env/
+.env
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Validation scripts
+run_*.py
+*_validate.py
+*_validation.py
+
+# PDF files
+*.pdf
+
+# Cache files
+.pytest_cache/
+.coverage
+htmlcov/
